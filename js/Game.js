@@ -89,7 +89,7 @@ class Game{
      if(player.distance>4250){
       gameState=2; 
       player.rank+=1;
-      Player.updateCarsAtEnd(player.rank);  
+      player.updateCarsAtEnd(player.rank);  
      }
      drawSprites();
     }
